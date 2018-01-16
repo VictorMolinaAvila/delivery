@@ -1,0 +1,9 @@
+version: '2'
+services:
+    delivery-elasticsearch:
+        image: elasticsearch:2.4.6
+        # volumes:
+        #     - ~/volumes/jhipster/delivery/elasticsearch/:/usr/share/elasticsearch/data/
+        ports:
+            - 9200:9200
+            - 9300:9300

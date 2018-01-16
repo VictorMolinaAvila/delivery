@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "VictorMolinaAvila",
+    "baseName": "delivery",
+    "packageName": "io.github.delivery.application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": true,
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "pt-br",
+    "languages": [
+      "en",
+      "pt-br"
+    ],
+    "clientFramework": "angular1",
+    "jhipsterVersion": "4.13.3",
+    "packageFolder": "io/github/delivery/application",
+    "jwtSecretKey": "09fa48e82141cd9f94fdb9b922656f94330c5566",
+    "jhiPrefix": "jhi"
+  }
+}
